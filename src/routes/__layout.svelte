@@ -3,6 +3,8 @@
 	import '../app.css';
 </script>
 
+<h1>FoCUS (UK)</h1>
+<h3>Future of coding mini conference and retreat</h3>
 <Header />
 
 <main>
@@ -10,7 +12,7 @@
 </main>
 
 <footer>
-	<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+	<p>Created with ❤ by Meleeman</p>
 </footer>
 
 <style>
@@ -24,6 +26,14 @@
 		margin: 0 auto;
 		box-sizing: border-box;
 	}
+	h1 {
+		font-size: 3rem;
+	}
+	h3 {
+		color: var(--heading-color);
+		font-weight: 400;
+		text-align: center;
+	}
 
 	footer {
 		display: flex;
@@ -33,9 +43,6 @@
 		padding: 40px;
 	}
 
-	footer a {
-		font-weight: bold;
-	}
 
 	@media (min-width: 480px) {
 		footer {
